@@ -7,8 +7,8 @@ library(compare)
 library(leaflet)
 
 #Load files that house distances that have been calculated between each trail
-load('cosine_distance.r')
-load('df.rats.r')
+#load('cosine_distance.r')
+#load('df.rats.r')
 
 #dists file here is a sum of 2 matrices - 1st based off distances between each rating. 2nd based off spatial distance between each trail calculated from geocodes
 dists <- read.csv('dists_euclidean.csv',stringsAsFactors = FALSE, check.names = FALSE)
